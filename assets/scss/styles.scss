@@ -250,11 +250,30 @@ img{
         display: flex;
         align-items: center;
     }
-    &__bar{
+    &__barhtml{
         position: absolute;
         left: 0;
         bottom: 0;
-        background-color: var(--first-color);
+        background-color: #F15412;
+        height: .25rem;
+        border-radius: .5rem;
+        z-index: var(--z-back);
+    }
+    &__bar{
+        &__barsass{
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            background-color: #F15412;
+            height: .25rem;
+            border-radius: .5rem;
+            z-index: var(--z-back);
+        }
+        &__barjs{
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        background-color: #FAC213;
         height: .25rem;
         border-radius: .5rem;
         z-index: var(--z-back);
