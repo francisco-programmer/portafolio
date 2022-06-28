@@ -19,6 +19,13 @@
   --z-back: -10;
   --z-fixed: 100;
 }
+.idioma {
+  width: 20px;
+  height: 20px;
+  justify-content: center;
+}
+
+
 
 @media screen and (min-width: 968px) {
   :root {
@@ -31,7 +38,17 @@
 *, ::before, ::after {
   box-sizing: border-box;
 }
-
+.logo{
+  display: flex;
+  width: 70%;
+}
+.icon-idioma{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  
+}
 html {
   scroll-behavior: smooth;
 }
@@ -120,7 +137,7 @@ img {
   -ms-transform: rotate(-90deg);
   -o-transform: rotate(-90deg);
 }
-
+ 
 @media screen and (max-width: 767px) {
   .nav__menu {
     position: fixed;
@@ -159,6 +176,7 @@ img {
 
 .nav__logo {
   color: var(--second-color);
+  
 }
 
 .nav__toggle {
@@ -189,6 +207,7 @@ img {
 
 .home__data {
   align-self: center;
+  
 }
 
 .home__title {
@@ -272,6 +291,7 @@ img {
   margin-bottom: var(--mb-4);
   border-radius: .5rem;
   box-shadow: 0px 4px 25px rgba(14, 36, 49, 0.15);
+ 
 }
 
 .skills__icon {
