@@ -324,6 +324,17 @@ img {
   margin-right: var(--mb-2);
   color: #61DBFB;
 }
+.skills__iconmongo {
+ width: 32px;
+ height: 32px;
+
+}
+
+.skills__iconnode {
+  font-size: 2rem;
+  margin-right: var(--mb-2);
+  color: #3c873a;
+}
 
 .skills__names {
   display: flex;
@@ -361,6 +372,24 @@ img {
   left: 0;
   bottom: 0;
   background-color: #61DBFB;
+  height: .25rem;
+  border-radius: .5rem;
+  z-index: var(--z-back);
+}
+.skills__barnode {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background-color: #3c873a;
+  height: .25rem;
+  border-radius: .5rem;
+  z-index: var(--z-back);
+}
+.skills__barmongo {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background-color: #81c784;
   height: .25rem;
   border-radius: .5rem;
   z-index: var(--z-back);
@@ -429,6 +458,12 @@ img {
 }
 .skills__percentagere{
   color:#61DBFB ;
+}
+.skills__percentagenode{
+  color:#3c873a ;
+}
+.skills__percentagemongo{
+  color:#81c784 ;
 }
 
 .work__container {
