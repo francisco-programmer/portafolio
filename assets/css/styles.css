@@ -130,13 +130,7 @@ img {
   align-items: center;
   font-weight: var(--font-semi);
 }
-#francisco {
-  transform: rotate(-90deg);
-  -webkit-transform: rotate(-90deg);
-  -moz-transform: rotate(-90deg);
-  -ms-transform: rotate(-90deg);
-  -o-transform: rotate(-90deg);
-}
+
  
 @media screen and (max-width: 767px) {
   .nav__menu {
